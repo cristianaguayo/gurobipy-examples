@@ -1,0 +1,197 @@
+{
+    "sets": {
+        "PROD": [
+            "bands",
+            "coils",
+            "plate"
+        ],
+        "ORIG": [
+            "GARY",
+            "CLEV",
+            "PITT"
+        ],
+        "DEST": [
+            "FRA",
+            "DET",
+            "LAN",
+            "WIN",
+            "STL",
+            "FRE",
+            "LAF"
+        ]
+    },
+    "parameters": {
+        "supply": {
+            "GARY": {
+                "bands": 400,
+                "coils": 800,
+                "plate": 200
+            },
+            "CLEV": {
+                "bands": 700,
+                "coils": 1600,
+                "plate": 300
+            },
+            "PITT": {
+                "bands": 800,
+                "coils": 1800,
+                "plate": 300
+            }
+        },
+        "demand": {
+            "FRA": {
+                "bands": 300,
+                "coils": 500,
+                "plate": 100
+            },
+            "DET": {
+                "bands": 300,
+                "coils": 750,
+                "plate": 100
+            },
+            "LAN": {
+                "bands": 100,
+                "coils": 400,
+                "plate": 0
+            },
+            "WIN": {
+                "bands": 75,
+                "coils": 250,
+                "plate": 50
+            },
+            "STL": {
+                "bands": 650,
+                "coils": 950,
+                "plate": 200
+            },
+            "FRE": {
+                "bands": 225,
+                "coils": 850,
+                "plate": 100
+            },
+            "LAF": {
+                "bands": 250,
+                "coils": 500,
+                "plate": 250
+            }
+        },
+        "cost": {
+            "bands": {
+                "GARY": {
+                    "FRA": 30,
+                    "DET": 10,
+                    "LAN": 8,
+                    "WIN": 10,
+                    "STL": 11,
+                    "FRE": 71,
+                    "LAF": 6
+                },
+                "CLEV": {
+                    "FRA": 22,
+                    "DET": 7,
+                    "LAN": 10,
+                    "WIN": 7,
+                    "STL": 21,
+                    "FRE": 82,
+                    "LAF": 13
+                },
+                "PITT": {
+                    "FRA": 19,
+                    "DET": 11,
+                    "LAN": 12,
+                    "WIN": 10,
+                    "STL": 25,
+                    "FRE": 83,
+                    "LAF": 15
+                }
+            },
+            "coils": {
+                "GARY": {
+                    "FRA": 39,
+                    "DET": 14,
+                    "LAN": 11,
+                    "WIN": 14,
+                    "STL": 16,
+                    "FRE": 82,
+                    "LAF": 8
+                },
+                "CLEV": {
+                    "FRA": 27,
+                    "DET": 9,
+                    "LAN": 12,
+                    "WIN": 9,
+                    "STL": 26,
+                    "FRE": 95,
+                    "LAF": 17
+                },
+                "PITT": {
+                    "FRA": 24,
+                    "DET": 14,
+                    "LAN": 17,
+                    "WIN": 13,
+                    "STL": 28,
+                    "FRE": 99,
+                    "LAF": 20
+                }
+            },
+            "plate": {
+                "GARY": {
+                    "FRA": 41,
+                    "DET": 15,
+                    "LAN": 12,
+                    "WIN": 16,
+                    "STL": 17,
+                    "FRE": 86,
+                    "LAF": 8
+                },
+                "CLEV": {
+                    "FRA": 29,
+                    "DET": 9,
+                    "LAN": 13,
+                    "WIN": 9,
+                    "STL": 28,
+                    "FRE": 99,
+                    "LAF": 18
+                },
+                "PITT": {
+                    "FRA": 26,
+                    "DET": 14,
+                    "LAN": 17,
+                    "WIN": 13,
+                    "STL": 31,
+                    "FRE": 104,
+                    "LAF": 20
+                }
+            }
+        },
+        "limit": {
+            "GARY": {
+                "FRA": 625,
+                "DET": 625,
+                "LAN": 625,
+                "WIN": 625,
+                "STL": 625,
+                "FRE": 625,
+                "LAF": 625
+            },
+            "CLEV": {
+                "FRA": 625,
+                "DET": 625,
+                "LAN": 625,
+                "WIN": 625,
+                "STL": 625,
+                "FRE": 625,
+                "LAF": 625
+            },
+            "PITT": {
+                "FRA": 625,
+                "DET": 625,
+                "LAN": 625,
+                "WIN": 625,
+                "STL": 625,
+                "FRE": 625,
+                "LAF": 625
+            }
+        }
+    }
+}
